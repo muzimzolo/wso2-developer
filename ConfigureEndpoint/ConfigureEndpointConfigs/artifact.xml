@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="QueryDoctorEP" groupId="com.debugger.wso2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/QueryDoctorEP.xml</file>
+    </artifact>
+    <artifact name="WSO2-API" groupId="com.debugger.wso2.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/WSO2-API.xml</file>
+    </artifact>
+    <artifact name="WSO2-API_swagger" groupId="com.debugger.wso2.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/WSO2-API_swagger.yaml</file>
+    </artifact>
+    <artifact name="WSO2-API_metadata" groupId="com.debugger.wso2.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/WSO2-API_metadata.yaml</file>
+    </artifact>
+</artifacts>
